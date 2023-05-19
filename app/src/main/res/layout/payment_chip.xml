@@ -1,0 +1,18 @@
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/paymentChip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textColor="@color/dark_grey"
+    android:layout_margin="8dp"
+    style="@style/Widget.MaterialComponents.Chip.Choice"
+    app:chipIcon="@drawable/ic_close"
+    app:chipIconTint="@color/dark_grey"
+    app:chipIconSize="18dp"
+    app:closeIconVisible="true"
+    app:closeIcon="@drawable/ic_close"
+    app:closeIconSize="18dp"
+    app:closeIconTint="@color/dark_grey"/>
+

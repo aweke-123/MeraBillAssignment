@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeraBillAssignment</string>
+    <string name="add_payment_action"><u>Add Payment</u></string>
+    <string name="empty_amount_validation_msg">Please enter an amount</string>
+    <string name="wrong_amount_validation_msg">Please enter a valid amount</string>
+    <string name="empty_payment_validation_msg">Please add a payment</string>
+    <string name="wrong_payment_validation_msg">Please enter a valid amount for all payments</string>
+    <string name="payment_saved">Payment saved</string>
+    <string name="payment_chips_full_msg">All payments are already added. You can delete old data and enter new details</string>
+
+</resources>

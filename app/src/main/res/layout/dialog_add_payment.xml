@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Add Payment"
+        android:textColor="#222"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="\u20B9"
+            android:textColor="#222"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Amount"
+            android:padding="5dp"
+            android:background="@drawable/edit_text_border"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/paymentTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingRight="0dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/providerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Provider (ICICI, Citibank, etc.)"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_border"/>
+
+    <EditText
+        android:id="@+id/transactionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Transaction Reference"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_border"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:backgroundTint="@color/blue_button"/>
+    </LinearLayout>
+
+</LinearLayout>

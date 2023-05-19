@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: ₹0.00"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/payments_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payments"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/paymentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/addPaymentLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_payment_action"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_button"
+        android:visibility="gone"/>
+</LinearLayout>
